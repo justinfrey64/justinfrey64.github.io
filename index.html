@@ -1,87 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- title-->
         <title>Justin Frey</title>
+
+        <!-- favicon -->
+        <link id="favicon" rel="icon" type="image/png" href="images/favicon.ico">
+
+        <!-- css -->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link href="/libs/font-awesome/css/fontawesome.css" rel="stylesheet">
-        <link href="/libs/font-awesome/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/libs/font-awesome/css/fontawesome.css">
+        <link rel="stylesheet" href="/libs/font-awesome/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Raleway">
+
     </head>
     <body>
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h1>Justin Frey's Webpage</h1>
+            <div>
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <a class="navbar-brand" href="#">Justin Frey</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbar-links">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#" data-index-nav="0">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-index-nav="1">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-index-nav="2">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-index-nav="3">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-index-nav="4">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-6">
-                        <nav class="nav-main">
-                            <ul>
-                                <li>
-                                    <a href="#">About</a>
-                                </li>
-                                <li>
-                                    <a href="#">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact Me</a>
-                                </li>
-                            </ul> 
-                        </nav>
-                    </div>
-                </div>
+                </nav>
             </div>
         </header>
-        <content>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                    </div>
-                    <div class="col-4">
-                        <p>hello friend</p>
-                        <p>
-                            <i class="fas fa-hammer"></i>&emsp;<span>website under construction</span>&emsp;<i class="fas fa-hammer"></i>
-                        </p>
-                        <span id="typed"></span>
-                    </div>
-                    <div class="col-4">
-                    </div>
-                </div>
+        <section>
+            <div class="container text-center" data-index-nav="0">
+                <i class="fas fa-hammer"></i>
+                <span id="typed" style="font-size: 50px"></span>
+                <i class="fas fa-hammer"></i>
             </div>
-        </content>
+        </section>
+        <!-- footer -->
         <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <ul>
-                            <li>
-                                © 2018 Justin Frey
-                            </li>
-                            <li>
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Terms of Use</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-4">
-                        <a href="https://github.com/justinfrey64"><i class="fab fa-github fa-3x"></i></a>
-                        <a href="https://linkedin.com/in/justinfrey64"><i class="fab fa-linkedin fa-3x"></i></a>
-                    </div>
-                    <div class="col-4">
-                        <ul>
-                            <li>
-                                Justin Frey
-                            </li>
-                            <li>
-                                justinfrey64@gmail.com
-                            </li>
-                        </ul>
-                    </div>
+            <div class="container text-center">
+                <h3>Justin Frey</h3>
+                <div class="social">
+                    <a href="https://github.com/justinfrey64"><i class="fab fa-github fa-3x"></i></a>
+                    <a href="https://linkedin.com/in/justinfrey64"><i class="fab fa-linkedin fa-3x"></i></a>
+                </div>
+                <div class="legal">
+                    © 2018 Justin Frey | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
                 </div>
             </div>
         </footer>
 
+        <!-- script -->
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/jquery-3.3.1.min.js"></script>
         <script src="/js/popper.min.js"></script>
@@ -89,5 +79,6 @@
         <script src="/libs/font-awesome/js/all.min.js"></script>
         <script src="/js/typed-2.0.9.js"></script>
         <script src="/js/scripts.js"></script>
+        <script src="/js/scrollIt.min.js"></script>
     </body>
 </html>
