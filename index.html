@@ -13,45 +13,52 @@
         <link id="favicon" rel="icon" type="image/png" href="images/favicon.ico">
 
         <!-- css -->
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="/libs/font-awesome/css/fontawesome.css">
         <link rel="stylesheet" href="/libs/font-awesome/css/all.min.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Raleway">
 
     </head>
     <body>
         <header>
             <div>
-                <nav class="navbar navbar-expand-sm navbar-light">
-                    <a class="navbar-brand" href="#">Justin Frey</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        Justin Frey
+                      </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse" id="navbar-links">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#" data-index-nav="0">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-index-nav="1">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-index-nav="2">Experience</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-index-nav="3">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-index-nav="4">Contact</a>
-                            </li>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" data-scroll-nav="0" href="#">Home
+                              <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="1" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="2" href="#">Experience</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="3" href="#">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="4" href="#">Contact</a>
+                          </li>
                         </ul>
+                      </div>
                     </div>
-                </nav>
+              </nav>
             </div>
         </header>
         <section>
-            <div class="container text-center" data-index-nav="0">
+            <div class="container text-center" data-scroll-index="0">
                 <i class="fas fa-hammer"></i>
                 <span id="typed" style="font-size: 50px"></span>
                 <i class="fas fa-hammer"></i>
@@ -72,13 +79,13 @@
         </footer>
 
         <!-- script -->
-        <script src="/js/bootstrap.min.js"></script>
         <script src="/js/jquery-3.3.1.min.js"></script>
-        <script src="/js/popper.min.js"></script>
+        <script src="/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="/libs/font-awesome/js/fontawesome.min.js"></script>
         <script src="/libs/font-awesome/js/all.min.js"></script>
         <script src="/js/typed-2.0.9.js"></script>
-        <script src="/js/scripts.js"></script>
         <script src="/js/scrollIt.min.js"></script>
+        <script src="/js/isotope.pkgd.min.js"></script>
+        <script src="/js/scripts.js"></script>
     </body>
 </html>
