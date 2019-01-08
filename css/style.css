@@ -776,6 +776,34 @@ a:hover {
   color: #4e4e4e;
 }
 
+.s-description a{
+  color: #ff533d;
+}
+
+.s-description a:hover {
+  color: #ab987a;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-box .btn{
+  font-size: 3em;
+  color: #ff533d;
+  height: 1em;
+}
+
+.service-box .rotate{
+  -moz-transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+.service-box .rotate.down{
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
+
 /*======================================
 //--//-->   COUNTER
 ======================================*/
