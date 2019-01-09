@@ -114,7 +114,7 @@
 		}
 	});
 
-	$('.service-box').on('click','.rotate',function(){
+	$('.rotate').on('click',function(){
 		$(this).toggleClass('down');
 	});
 
