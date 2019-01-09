@@ -789,13 +789,13 @@ a:hover {
 .service-box .btn{
   font-size: 3em;
   color: #ff533d;
-  height: 1em;
+  min-height: 0.75em;
 }
 
 .service-box .rotate{
-  -moz-transition: all .5s linear;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 .service-box .rotate.down{

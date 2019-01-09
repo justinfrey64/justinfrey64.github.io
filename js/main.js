@@ -114,4 +114,8 @@
 		}
 	});
 
+	$('.service-box').on('click','.rotate',function(){
+		$(this).toggleClass('down');
+	});
+
 })(jQuery);
