@@ -60,7 +60,7 @@ a:hover {
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #ff998c;
 }
 
 .display-5 {
@@ -216,7 +216,7 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  color: #ff533d;
+  color: #4e4e4e;
   box-shadow: 0 0 0 3px #ff533d;
   transition: all 500ms ease;
 }
@@ -612,7 +612,7 @@ a:hover {
   position: absolute;
 }
 
-.intro .overlay-itro {
+.intro .overlay-intro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
@@ -882,6 +882,10 @@ a:hover {
   color: #ff533d;
 }
 
+.work-content .w-desc a {
+  color: #ab987a;
+}
+
 .work-content .w-like {
   font-size: 2.5rem;
   color: #ff533d;
@@ -890,6 +894,10 @@ a:hover {
 
 .work-content .w-like a {
   color: #ff533d;
+}
+
+.work-content .w-like a:hover {
+  color: #ab987a;
 }
 
 .work-content .w-like .num-like {
@@ -908,9 +916,8 @@ a:hover {
   right:0.5em;
   top:-0.5em;
 }
-/*======================================
-//--//-->   TESTIMONIALS
-======================================*/
+/* 
+TESTIMONIALS
 
 .testimonials .owl-carousel .owl-item img {
   width: auto;
@@ -950,9 +957,7 @@ a:hover {
   line-height: 1.6;
 }
 
-/*======================================
-//--//-->   BLOG
-======================================*/
+BLOG
 
 .card-blog .card-body {
   position: relative;
@@ -1005,9 +1010,7 @@ a:hover {
   float: right;
 }
 
-/*======================================
-//--//-->   BLOG-SINGLE
-======================================*/
+BLOG-SINGLE
 
 .post-box,
 .form-comments,
@@ -1050,7 +1053,7 @@ a:hover {
   font-style: italic;
 }
 
-/*------/ Comments /------*/
+Comments
 
 .box-comments .list-comments li {
   padding-bottom: 40px;
@@ -1089,7 +1092,7 @@ a:hover {
   margin-left: 40px;
 }
 
-/*------/ Sidebar /------*/
+Sidebar
 
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
@@ -1140,6 +1143,8 @@ a:hover {
 .widget-tags ul li a {
   color: #f5f5f5;
 }
+
+*/
 
 /*======================================
 //--//-->   CONTACT
@@ -1245,15 +1250,15 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #0062d3;
-  color: #f5f5f5;
+  background-color: #f5f5f5;
+  color: #ff533d;
   transition: all 500ms ease;
 }
 
 .button-a {
   background-color: #ff533d;
   color: #f5f5f5;
-  border-color: #cde1f8;
+  border-color: #ff998c;
 }
 
 .button-big {
@@ -1652,21 +1657,3 @@ footer .credits a {
 }
 
 }
-
-/* .responive-icon:hover{
-    -webkit-animation: spin .8s infinite linear;
-    animation: spin .8s infinite linear;
-}
-@-webkit-keyframes spin {
-    100% { -webkit-transform: rotate(360deg); }
-}
-@-moz-keyframes spin {
-    100% { -moz-transform: rotate(360deg); }
-}
-@keyframes spin {
-    100% {
-        -moz-transform:rotate(360deg);
-        -o-transform:rotate(360deg);
-        transform:rotate(360deg);
-    }
-} */
