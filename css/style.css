@@ -1165,6 +1165,10 @@ Sidebar
 .contact-mf .location-url:hover{
   color: #ab987a;
 }
+
+.contact-mf .list-ico svg{
+  color: #ff533d;
+}
 /*======================================
 //--//-->   FOOTER
 ======================================*/
