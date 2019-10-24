@@ -819,6 +819,18 @@ a:hover {
   transform:rotate(180deg);
 }
 
+.responsive-icon{
+  transition: all 0.5s ease-in-out;
+  
+}
+
+.service-box:hover .responsive-icon{
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  -moz-transform: rotate(90deg);   /* Firefox */
+  -ms-transform: rotate(90deg);   /* IE 9 */
+  -o-transform: rotate(90deg);   /* Opera */
+  transform: rotate(90deg);
+}
 /*======================================
 //--//-->   COUNTER
 ======================================*/
