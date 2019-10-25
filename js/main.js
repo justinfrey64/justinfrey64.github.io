@@ -91,9 +91,9 @@
 
 	/*--/ Star Typed /--*/
 	if ($('.text-slider').length == 1) {
-    var typed_strings = $('.text-slider-items').text();
+    var typed_strings = ['Frontend Developer', 'Dungeon Master', 'Backend Developer', 'Snowboarder', 'IT Specialist', 'Game of Thrones Fan', 'Web Designer'];
 		var typed = new Typed('.text-slider', {
-			strings: typed_strings.split(','),
+			strings: typed_strings,
 			typeSpeed: 80,
 			loop: true,
 			backDelay: 1100,

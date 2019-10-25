@@ -851,12 +851,12 @@ a:hover {
 /*======================================
 //--//-->   PORTFOLIO
 ======================================*/
-
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #f5f5f5;
+  border-radius: 10px;
 }
 
 .work-img:hover img {
@@ -1169,9 +1169,9 @@ Sidebar
 .contact-mf .location-url:hover{
   color: #ab987a;
 }
-
 .contact-mf .list-ico svg{
   color: #ff533d;
+  margin-right: 1em;
 }
 /*======================================
 //--//-->   FOOTER
